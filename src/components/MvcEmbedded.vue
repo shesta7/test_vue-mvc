@@ -7,14 +7,17 @@ export default {
   },
   async mounted () {
 
-    this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/List/?embedded=true` // Список заявок новый абитуриент
-    //this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/ListForConfinder/?embedded=true` // Список заявок новый абитуриент (конфайдер)
-    //this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/?embedded=true` // Заявка новый абитуриент
-    //this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/{eventGuid}?embedded=true` // Заявка новый абитуриент (редактирование)
-    //this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/CreateEventForConfinder/?embedded=true` // Заявка новый абитуриент (конфайдер)
-    //this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/editEventForConfinder/?embedded=true` // Заявка новый абитуриент (конфайдер) редактирование
-    //this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/List/?embedded=true` // Заявка новый абитуриент (ДПО)
-    //this.url = `https://optest.roweb.online/workspace.2/student/Enrollment/List/?embedded=true` // Список заявок новый абитуриент (ДПО)
+    this.url = `https://optest.roweb.online/workspace.2/admission/enrollment/search/?embedded=true` // Список заявок новый абитуриент
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment/?embedded=true` // Заявка новый абитуриент
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment/{eventGuid}?embedded=true` // Заявка новый абитуриент (редактирование)
+      
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-confider/search/?embedded=true` // Список заявок новый абитуриент (конфайдер) 
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-confider/?embedded=true` // Заявка новый абитуриент (конфайдер)
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-confider/{eventGuid}?embedded=true` // Заявка новый абитуриент (конфайдер) редактирование
+    
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-dpo/search/?embedded=true` // Список заявок новый абитуриент (ДПО)  
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-dpo/?embedded=true` // Заявка новый абитуриент (ДПО)
+    //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-dpo/{eventGuid}?embedded=true` // Заявка новый абитуриент (ДПО) (редактирование)
   },
 }
 </script>
