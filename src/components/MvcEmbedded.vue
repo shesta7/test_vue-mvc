@@ -18,6 +18,8 @@ export default {
     //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-dpo/search/?embedded=true` // Список заявок новый абитуриент (ДПО)  
     //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-dpo/?embedded=true` // Заявка новый абитуриент (ДПО)
     //this.url = `https://optest.roweb.online/workspace.2/admission/enrollment-dpo/{eventGuid}?embedded=true` // Заявка новый абитуриент (ДПО) (редактирование)
+
+    //this.url = `https://optest.roweb.online/workspace.2/access/home/index/?embedded=true` // Управление пользователями
   },
 }
 </script>
